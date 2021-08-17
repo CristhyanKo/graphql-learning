@@ -5,8 +5,6 @@ const path = require('path');
 const resolvers = require('./resolvers');
 const mongoose = require('mongoose');
 
-console.log(process.env.MONGODB_URL_CONNECTION);
-
 mongoose.connect(process.env.MONGODB_URL_CONNECTION, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
