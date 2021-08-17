@@ -1,0 +1,19 @@
+{
+	"name": "graphql-learning",
+	"version": "1.0.0",
+	"description": "Application for studing graphql",
+	"main": "src/index.js",
+	"author": "Cristhyan Kohlhase <cristhyan.ko@outlook.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon src/server.js"
+	},
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"graphql-yoga": "^1.18.3",
+		"mongoose": "^5.13.7"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	}
+}
